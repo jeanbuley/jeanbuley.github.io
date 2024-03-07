@@ -2,7 +2,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(237, 203, 156);
+    background-color: rgb(94, 25, 25);
 }
 nav{
     height: 50vh;
@@ -10,13 +10,13 @@ nav{
     flex-direction: row;
     justify-content: space-between;
     height:20px;
-    background-color: rgb(83, 10, 10);
+    background-color: rgb(234, 225, 180);
 }
 nav a{
     width:10vw;
     text-align: center;
     text-decoration: none;
-    color:white;
+    color:rgb(94, 25, 25);
 }
 
 img{
@@ -27,7 +27,7 @@ img{
 }
 
 #red-ball{
-    background-color: rgb(83, 10, 10);
+    background-color: rgb(234, 225, 180);
     width: 20px;
     height:20px;
     border-radius: 50%;
