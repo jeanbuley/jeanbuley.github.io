@@ -1,0 +1,67 @@
+.top{
+    background-color: rgba(51, 110, 212, 0.562);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    padding-left: 40px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+nav {
+    background-color: rgba(51, 110, 212, 0.562);
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 50px;
+    position: sticky;
+    top: -1px;
+  }
+  
+
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+      justify-content: space-evenly;
+      flex-direction: row;
+      @media screen and (max-width: 500px){
+        flex-direction: column;
+      }
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    transition: color 0.2s;
+  }
+
+  nav a:hover{
+    color: rgba(25, 62, 127, 0.914);
+  }
+
+.show{
+    background-color:rgb(13, 64, 151);
+    padding: 20px;
+    color: white;
+    width: 40%;
+    height: 700px;
+    text-align: left;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    float: left;
+    transition: background-color 1s;
+}
+
+.show:hover{
+  background-color:black;
+}
+
+.artists{
+  align-items: flex-end;
+}
