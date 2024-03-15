@@ -1,0 +1,109 @@
+body{
+  background-color:rgb(44,123,226);
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.top{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.line{
+  width: 30%;
+  height:5px;
+  background-color:rgb(236, 215, 55);
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+nav {
+    background-color: rgb(236, 215, 55);
+    padding: 10px;
+    margin-bottom: 50px;
+    position: sticky;
+    top: 10px;
+    align-self: center;
+  }
+  
+
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+      justify-content: space-evenly;
+      flex-direction: row;
+      @media screen and (max-width: 500px){
+        flex-direction: column;
+      }
+  }
+  
+  nav a {
+    color: rgb(44,123,226);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    transition: color 0.2s;
+  }
+
+  nav a:hover{
+    color: rgb(255, 255, 255);
+  }
+
+.show{
+  padding: 20px;
+  color: white;
+  height: 40%;
+  text-align: left;
+  font-size: 18px;
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border: 10px solid white;
+  transition: border 0.3s;
+  @media screen and (max-width: 500px){
+    text-align: center;
+  }
+}
+
+.show:hover{
+  border: 10px solid rgb(236, 215, 55);
+}
+
+h2{
+  color:rgb(236, 215, 55);
+}
+
+.artists{
+  color:rgb(236, 215, 55);
+  font-style: italic;
+  text-align: right;
+  @media screen and (max-width: 500px){
+    text-align: center;
+  }
+}
+
+footer{
+  background-color: rgb(44,123,226);
+  border: 5px solid white;
+  width: 200px;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+  margin-bottom: 10px;
+  transition: border 0.3s, width 0.3s;
+}
+
+footer:hover{
+  border: 5px solid rgb(236, 215, 55);
+  width: 270px;
+}
+
+footer a{
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
