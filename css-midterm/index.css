@@ -4,10 +4,10 @@ body{
 }
 
 .top{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white;
-    font-size: 20px;
-    text-align: center;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+  font-size: 20px;
+  text-align: center;
 }
 
 .line{
@@ -19,38 +19,39 @@ body{
 }
 
 nav {
-    background-color: rgb(236, 215, 55);
-    padding: 10px;
-    margin-bottom: 50px;
-    position: sticky;
-    top: 10px;
-    align-self: center;
-  }
+  background-color: rgb(236, 215, 55);
+  padding: 10px;
+  margin-bottom: 50px;
+  position: sticky;
+  top: 10px;
+  align-self: center;
+}
   
 
-  nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: flex;
-      justify-content: space-evenly;
-      flex-direction: row;
-      @media screen and (max-width: 500px){
-        flex-direction: column;
-      }
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  @media screen and (max-width: 500px){
+    flex-direction: column;
+    text-align: center;
   }
+}
   
-  nav a {
-    color: rgb(44,123,226);
-    text-decoration: none;
-    font-size: 20px;
-    padding: 10px;
-    transition: color 0.2s;
-  }
+nav a {
+  color: rgb(44,123,226);
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px;
+  transition: color 0.2s;
+}
 
-  nav a:hover{
-    color: rgb(255, 255, 255);
-  }
+nav a:hover{
+  color: rgb(255, 255, 255);
+}
 
 .show{
   padding: 20px;
@@ -88,7 +89,7 @@ h2{
   }
 }
 
-footer{
+footer {
   background-color: rgb(44,123,226);
   border: 5px solid white;
   width: 200px;
@@ -97,6 +98,9 @@ footer{
   padding: 10px;
   margin-bottom: 10px;
   transition: border 0.3s, width 0.3s;
+  @media screen and (max-width: 500px){
+    margin-top: 20px;
+  }
 }
 
 footer:hover{
