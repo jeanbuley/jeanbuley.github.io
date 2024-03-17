@@ -34,10 +34,6 @@ nav ul {
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
-  @media screen and (max-width: 500px){
-    flex-direction: column;
-    text-align: center;
-  }
 }
   
 nav a {
@@ -64,11 +60,6 @@ nav a:hover{
   flex-wrap: wrap;
   border: 10px solid white;
   transition: border 0.3s;
-  @media screen and (max-width: 500px){
-    text-align: center;
-    margin: 0;
-    margin-top: 50px;
-  }
 }
 
 .show:hover{
@@ -83,9 +74,6 @@ h2{
   color:rgb(236, 215, 55);
   font-style: italic;
   text-align: right;
-  @media screen and (max-width: 500px){
-    text-align: center;
-  }
 }
 
 footer {
@@ -97,9 +85,6 @@ footer {
   padding: 10px;
   margin-bottom: 10px;
   transition: border 0.3s, width 0.3s;
-  @media screen and (max-width: 500px){
-    margin-top: 20px;
-  }
 }
 
 footer:hover{
@@ -111,4 +96,25 @@ footer a{
   color: white;
   font-size: 20px;
   text-decoration: none;
+}
+
+@media screen and (max-width: 500px){
+  nav ul {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .show {
+    text-align: center;
+    margin: 0;
+    margin-top: 50px;
+  }
+
+  .artists {
+    text-align: center;
+  }
+
+  footer {
+    margin-top: 20px;
+  }
 }
