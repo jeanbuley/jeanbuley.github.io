@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <title>Silly story generator</title>
+
+    <style>
+      body {
+        font-family:'Times New Roman', Times, serif;
+        width: 350px;
+        background-color: #e58dca;
+        color: white;
+        font-size: 25px;
+        width: 100%;
+      }
+
+      label {
+        font-weight: bold;
+      }
+
+      div {
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: center;
+      }
+
+      input[type="text"] {
+        padding: 5px;
+        width: 150px;
+      }
+
+      p {
+        background: #ffffff;
+        color: #e58dca;
+        padding: 10px;
+        visibility: hidden;
+        margin: 10%;
+      }
+
+      button{
+        color: white;
+        border: 3px dotted white;
+        background-color: #e58dca;
+        font-size: 20px;
+        transition: color 0s, text 0s, border 0s;
+      }
+
+      button:hover{
+        background-color: #ffffff;
+        color: #e58dca;
+        border: 3px dotted #e58dca;
+      }
+    </style>
+    <script src="../js/wa10.js" defer></script>
+  </head>
+
+  <body>
+    <div>
+      <label for="customname">Enter custom name:</label>
+      <input id="customname" type="text" placeholder="" />
+    </div>
+    <div>
+      <label for="us">US</label
+      ><input id="us" type="radio" name="ukus" value="us" checked />
+      <label for="uk">UK</label
+      ><input id="uk" type="radio" name="ukus" value="uk" />
+    </div>
+    <div>
+      <button class="randomize">Generate random story</button>
+    </div>
+    <!-- Thanks a lot to Willy Aguirre for his help with the code for this assessment -->
+    <p class="story"></p>
+  </body>
+</html>
