@@ -25,6 +25,9 @@ function generateNumber(){
 
 function addNumber(){
     volume += generated;
+    if (volume > 100){
+        volume = 100;
+    }
     generated = 0;
     displayVolume = "Volume: " + volume;
     displayGenerated = "Generated Number: " + generated;
