@@ -4,6 +4,8 @@ generated = 0;
 displayVolume = "Volume: " + volume;
 displayGenerated = "Generated Number: " + generated;
 
+display();
+
 const btnG = document.querySelector('#generate');
 btnG.addEventListener('click', generateNumber);
 
