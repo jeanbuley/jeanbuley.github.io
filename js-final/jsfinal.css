@@ -1,0 +1,50 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+heading1 {   
+    font-size: 50px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#generated {
+    margin: 50px;
+    font-size: 30px;
+}
+
+#total {
+    margin: 50px;
+    font-size: 40px;
+}
+
+button {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 20%;
+    margin-top: 50px;
+    background-color: rgb(180, 28, 28);
+    color: white;
+    border: 0px;
+}
+
+button:hover{
+    background-color: rgb(146, 13, 13);
+    color: white;
+}
+
+p {
+    font-size: x-large;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
