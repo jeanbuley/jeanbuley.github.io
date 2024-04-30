@@ -12,6 +12,9 @@ btnG.addEventListener('click', generateNumber);
 const btnA = document.querySelector('#add');
 btnA.addEventListener('click', addNumber);
 
+const btnS = document.querySelector('#subtract');
+btnS.addEventListener('click', subtractNumber);
+
 const btnR = document.querySelector('#reset');
 btnR.addEventListener('click', resetNumber);
 
@@ -25,9 +28,16 @@ function generateNumber(){
 
 function addNumber(){
     volume += generated;
-    if (volume > 100){
-        volume = 100;
-    }
+    generated = 0;
+    displayVolume = "Volume: " + volume;
+    displayGenerated = "Generated Number: " + generated;
+    console.log(generated);
+    console.log(volume);
+    display();
+}
+
+function subtractNumber(){
+    volume -= generated;
     generated = 0;
     displayVolume = "Volume: " + volume;
     displayGenerated = "Generated Number: " + generated;
