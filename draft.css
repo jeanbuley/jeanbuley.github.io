@@ -1,0 +1,71 @@
+body {
+    font-size: 20px;
+    font-family: monospace;
+}
+
+#title {
+    position: relative;
+    color: white;
+    top: 30px;
+    left: -200px;
+    width: 720px;
+    text-align: left;
+    margin-left: 20px;
+    background-color: rgb(242, 193, 59);
+    padding-left: 200px;
+    border: 2px solid rgb(242, 193, 59);
+    border-radius: 150px;
+
+    margin-bottom: 100px;
+}
+
+#contact {
+    position: relative;
+    color: white;
+    bottom: -200px;
+    left: -100px;
+    width: 500px;
+    text-align: left;
+    background-color: rgb(189, 59, 30);
+    padding-left: 130px;
+    border: 2px solid rgb(189, 59, 30);
+    border-radius: 150px;
+}
+
+button {
+    position: relative;
+    font-family: monospace;
+    color: white;
+    padding: 15px;
+    margin: 10px;
+    font-size: 27px;
+    width: 180px;
+    background-color: rgb(189, 59, 30);
+    border: none;
+    border-radius: 30px;
+    transition: width 0.3s;
+
+    left: 30%;
+}
+
+button:hover {
+    background-color: rgb(140, 43, 22);
+    width: 220px;
+    cursor: pointer;
+}
+
+#projects {
+    background-color: rgb(242, 193, 59);
+}
+
+#projects:hover {
+    background-color: rgb(243, 209, 117);
+}
+
+#linkedin {
+    background-color: black;
+}
+
+#linkedin:hover{
+    background-color: gray;
+}
