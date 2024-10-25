@@ -13,7 +13,7 @@ body{
 .line{
   width: 30%;
   height:5px;
-  background-color: white;
+  background-color: rgb(99, 138, 191);
   margin: auto;
   margin-bottom: 50px;
 }
@@ -58,12 +58,12 @@ nav a:hover{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  border: 10px solid white;
+  border: 10px solid rgb(99, 138, 191);
   transition: border 0.3s;
 }
 
 .show:hover{
-  border: 10px solid rgb(99, 138, 191);
+  border: 10px solid white;
 }
 
 h2{
